@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "image",
+			"path": "../../../Zalo Received Files/Duy/assets/image"
+		},
+		{
+			"name": "LearningCODE",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "LearningCODE"
+	}
+}

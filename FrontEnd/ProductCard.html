@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Đăng nhập vào LearnLink</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="ProductCard.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="img-container">
+                <img src="./assets/image/logo.png">
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="form-title">
+                <button class="login" onclick="window.location.href='./login.html';"> Đăng nhập </button>
+            </div>
+            <div class="form-content">
+                <div class="input-container">
+                    <form id="registrationForm">
+                        <div class="input-group">
+                            <div class="input-control">
+                                <input type="text" id="email" name="Email" placeholder="Email hoặc số điện thoại"
+                                    required>
+                            </div>
+                            <div class="input-control">
+                                <input type="password" id="password" name="Password" placeholder="Mật khẩu" required>
+                                <span>
+                                    <img src="./assets/image/eye.png" onclick="togglePassaword()" />
+                                </span>
+                                <!-- <script>
+                                    function togglePassaword() {
+                                        var x = document.getElementById("password");
+                                        if (x.type === "password") {
+                                            x.type = "text";
+                                        } else {
+                                            x.type = "password";
+                                        }
+                                    }
+                                </script> -->
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-control">
+                                <input type="text" id="fullname" name="UserName" placeholder="Tên" required>
+                            </div>
+                            <div class="input-control">
+                                <input type="text" id="age" name="Birth" placeholder="Ngày/tháng/năm sinh" required>
+                            </div>
+                        </div>
+                        <button method="Post" type="submit" class="SignUp"
+                            style="margin-left: 249px; height: 45px; width: 100px;">
+                            Tạo tài khoản
+                        </button>
+                    </form>
+                    <div class="form-container">
+                        <p class="policy">
+                            Để có trải nghiệm LeanrLink phù hợp nhất hãy cung cấp tuổi của bạn. Để biết thêm chi tiết,
+                            vui lòng truy cập trang<br />
+                            <b>Chính sách quyền riêng tư</b> của chúng tôi.
+                        </p>
+
+                        <div class="separator">
+                            <hr>
+                            Hoặc
+                            <hr>
+                        </div>
+                        <div class="btnLink">
+                            <button type="button" class="btnFB"
+                                onclick="window.location.href='https://www.facebook.com/ '"><b>F</b>acebook</button>
+                            <button type="button" class="btnGG"
+                                onclick="window.location.href='https://www.google.com.vn/'"><b>G</b>oogle</button>
+                        </div>
+                        <p class="policy2">
+                            Khi đăng ký trên LeanrLink, bạn đã đồng ý với <b>Các chính sách </b>và<b>Chính sách bảo mật
+                            </b>của chúng tôi.
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <script src="./assets/js/registerUser.js"></script>
+</body>
+
+
+</html>

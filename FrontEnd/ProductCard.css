@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  justify-content: below;
+  background-color: #e36666;
+  font-weight: bold;
+  height: 91px;
+
+}
+
+.container {
+  background-color: white;
+}
+
+.img-container {
+  /* background-image: url(../image/logo.png); */
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  height: 90px;
+}
+
+.form-container {
+  .form-title {
+    display: flex;
+    margin-top: 30px;
+
+    .login {
+      background-color: white;
+      border: solid;
+      border-color: #e36666;
+      color: #e36666;
+      padding: 10px 20px;
+      border-width: 2px;
+      border-radius: 15px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: 20px;
+    }
+  }
+
+  .form-content {
+    display: flex;
+    margin-top: 30px;
+
+    .input-container {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+
+      .input-group {
+        display: flex;
+
+        .input-control {
+          border-radius: 15px;
+          border: none;
+          background-color: #f5f5f5;
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+          margin: 10px;
+          width: 270px;
+
+          input {
+            background-color: transparent;
+            border: none;
+            padding: 15px;
+            width: 240px;
+          }
+
+          input[type="password"] {
+            width: 205px;
+          }
+
+          input:focus-visible {
+            outline: none;
+          }
+
+          img {
+            cursor: pointer;
+            width: 30px;
+          }
+        }
+      }
+    }
+
+    .form-container {
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+
+      .policy {
+        font-style: inter;
+        font-size: 13px;
+        font-family: inter;
+        text-align: center;
+
+      }
+
+      .SignUp {
+        background: #e36666;
+        border: none;
+        padding: 10px;
+        border-radius: 15px;
+        width: 200px;
+        font-size: 16px;
+        color: white;
+        margin-left: 100px;
+        margin-top: 20px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .separator {
+        display: flex;
+        margin-top: 20px;
+
+        hr {
+          width: 200px;
+          margin-left: 20px;
+          margin-right: 20px;
+        }
+      }
+
+      .btnFB {
+        background: white;
+        color: blue;
+        border-radius: 10px;
+        border: solid;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 150px;
+        height: 40px;
+        margin-right: 48px;
+        margin-top: -23px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+
+        b {
+          font-size: 20px;
+        }
+      }
+
+      .btnLink {
+        justify-content: center;
+        display: flex;
+
+      }
+
+      .btnGG {
+        background: white;
+        color: blue;
+        border-radius: 10px;
+        border: solid;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 150px;
+        height: 40px;
+        margin-top: -22px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+
+        b {
+          font-size: 20px;
+        }
+      }
+
+      .policy2 {
+        font-style: inter;
+        font-size: 13px;
+        font-family: inter;
+        text-align: center;
+      }
+    }
+  }
+}

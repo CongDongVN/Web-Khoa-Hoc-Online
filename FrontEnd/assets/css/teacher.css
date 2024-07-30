@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 9.6rem;
+    background-color: #E36666;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30rem;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url(/assets/image/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btnBack {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.btnBack:hover p {
+    text-decoration: underline;
+    color: blue;
+}
+
+.btnBack:hover .btnBack_icon {
+    border-color: blue;
+}
+
+.btnBack_icon {
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid black;
+    border-bottom: rgba(0, 0, 0, 0);
+    border-right: rgba(0, 0, 0, 0);
+    transform: rotate(-45deg);
+    margin-right: .5rem;
+}
+
+main {
+    width: 78%;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+.nameTeacher {
+    margin: 0 auto;
+    height: 30rem;
+    background-color: #ac6262;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+    border-radius: 1rem;
+    margin-top: 4rem;
+}
+
+.btnNav {
+    height: 10rem;
+    margin: 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+    border: 2px solid red;
+    font-weight: 600;
+    padding: 3rem 3rem;
+    background-color: #fa9b9b;
+    border-radius: 2rem;
+    color: red;
+    margin: 4px 16px;
+}
+
+.btn:nth-child(1) {
+    margin-right: 3rem;
+}
+
+.btn:hover {
+    color: blue;
+    background-color: #ac6262;
+}
+
+section {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.listHead {
+    width: 45%;
+    height: 100%;
+    list-style: none;
+}
+
+.listHead li {
+    margin: 0 4rem 3rem 2rem;
+    height: 10rem;
+    background-color: #fa9b9b;
+    border-radius: 2rem;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.listHead li h4 {
+    padding: 2rem 3rem 1rem;
+    font-size: 2rem;
+}
+
+.listHead li p {
+    margin: 0 3rem;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.6);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.listHot {
+    flex: 1;
+    background-color: #fa9b9b;
+    border-radius: 1rem;
+}
+
+.listHot h4 {
+    padding: 2rem;
+}
+
+.listHot ul {
+    list-style: none;
+    padding: 0 1rem;
+}
+
+.listHot ul li {
+    height: 20rem;
+    margin: 0 2rem 2rem;
+    display: flex;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.listHot ul li .img {
+    width: 45%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 2rem;
+    margin-right: 2rem;
+}
+
+._1,
+._2,
+._3 {
+    background: url(/FrontEnd/assets/image/khoa_img/69-tuyet-chieu.png) no-repeat center;
+}
+
+.listHot ul li p {
+    flex: 1;
+    display: -webkit-box;
+    font-size: 2rem;
+    margin: 1rem 0;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.listHot ul li:last-child {
+    border-bottom: none;
+}
+
+.listNew {
+    display: block;
+}
+
+.listNew_head {
+    font-size: 2.5rem;
+}
+
+.listNewCourse {
+    height: 30rem;
+    list-style: none;
+    margin: 0 1rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listNewCourse li {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    box-shadow: 2px 8px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+    overflow: hidden;
+    align-items: center;
+}
+
+.imgsig {
+    width: 40%;
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+    margin-right: 2rem;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+._il-1 {
+    background-image: url(/FrontEnd/assets/image/list_img/img2.png);
+}
+
+.text {
+    flex: 1;
+    font-size: 2rem;
+}
+
+.text p {
+    margin-top: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-right: 2rem;
+}
+
+footer {
+    background-color: #E36666;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    color: white;
+    line-height: 150%;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.col_1 {
+    height: 100%;
+    margin-bottom: 3rem;
+}
+
+.col_1 .logo {
+    width: 33rem;
+    height: 10rem;
+    margin-top: 2rem;
+    background-size: 98% 104%;
+    margin-bottom: 1rem;
+}
+
+.contact {
+    list-style: none;
+    color: white;
+}
+
+.col_2 {
+    width: 81.2rem;
+    height: 100%;
+    margin-bottom: 3rem;
+}
+
+.col_2 ul,
+.col_3 ul {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.col_3 {
+    margin-top: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.imgMobile {
+    margin-top: 2rem;
+    list-style: none;
+}
